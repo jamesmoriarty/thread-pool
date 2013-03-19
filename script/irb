@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require_relative "../lib/thread_pool"
+require 'irb'
+IRB.start
