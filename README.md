@@ -1,4 +1,4 @@
-thread-pool
+thread-pool [![Dependency Status](https://gemnasium.com/jamesmoriarty/thread-pool.png)](https://gemnasium.com/jamesmoriarty/thread-pool)
 ===========
 
 Ruby thread pool.
