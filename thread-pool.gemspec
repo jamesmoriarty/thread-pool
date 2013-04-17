@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "thread-pool"
-  s.version = "0.0.0"
+  s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["James Moriarty"]
@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
     "Gemfile",
     "Gemfile.lock",
     "README.md",
+    "Rakefile",
     "VERSION",
     "doc/Gemfile.html",
     "doc/ThreadPool.html",
@@ -60,7 +61,8 @@ Gem::Specification.new do |s|
     "lib/thread_pool.rb",
     "script/irb",
     "spec/spec_helper.rb",
-    "spec/unit/thread_pool_spec.rb"
+    "spec/unit/thread_pool_spec.rb",
+    "thread-pool.gemspec"
   ]
   s.homepage = "http://github.com/jamesmoriarty/thread-pool"
   s.licenses = ["MIT"]
