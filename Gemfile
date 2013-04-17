@@ -1,4 +1,14 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem "rspec"
+
+# Add dependencies to develop your gem here.
+# Include everything needed to run rake, tests, features, etc.
+group :development do
+  gem "bundler", "~> 1.3.5"
+  gem "jeweler", "~> 1.8.3"
+end
+
+group :test do
+  gem "rspec"
+end
