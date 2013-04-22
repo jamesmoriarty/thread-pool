@@ -1,4 +1,4 @@
-thread-pool [![endorse](https://api.coderwall.com/jamesmoriarty/endorsecount.png)](https://coderwall.com/jamesmoriarty) [![Build Status](https://travis-ci.org/jamesmoriarty/thread-pool.png?branch=master)](https://travis-ci.org/jamesmoriarty/thread-pool) [![Dependency Status](https://gemnasium.com/jamesmoriarty/thread-pool.png)](https://gemnasium.com/jamesmoriarty/thread-pool)
+thread-pool [![endorse](https://api.coderwall.com/jamesmoriarty/endorsecount.png)](https://coderwall.com/jamesmoriarty) [![Build Status](https://travis-ci.org/jamesmoriarty/thread-pool.png?branch=master)](https://travis-ci.org/jamesmoriarty/thread-pool) [![Dependency Status](https://gemnasium.com/jamesmoriarty/thread-pool.png)](https://gemnasium.com/jamesmoriarty/thread-pool) [![Coverage Status](https://coveralls.io/repos/jamesmoriarty/thread-pool/badge.png?branch=master)](https://coveralls.io/r/jamesmoriarty/thread-pool)
 ===========
 
 Ruby thread pool.
