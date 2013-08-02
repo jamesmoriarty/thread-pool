@@ -47,7 +47,7 @@ class ThreadPool
   end
 
   def shutdown
-    @threads.size.times do
+    @threads.each do
       schedule { throw :exit }
     end
 
