@@ -8,3 +8,7 @@ thread_pool = ThreadPool.new(2)
 thread_pool.schedule { "Do something..." }
 thread_pool.shutdown
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jamesmoriarty/thread-pool/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
