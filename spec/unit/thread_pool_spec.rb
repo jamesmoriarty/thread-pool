@@ -6,6 +6,7 @@ describe ThreadPool do
     it("execute jobs in parallel.") do
       string = ""
       thread_pool = ThreadPool.new(2)
+      thread_pool.start
       thread_pool.schedule { sleep(4); string = "The 1st job." }
       thread_pool.schedule { sleep(1); string = "The 2nd job." }
       sleep(2)
@@ -19,6 +20,7 @@ describe ThreadPool do
     it("not complete and more jobs.") do
       string = ""
       thread_pool = ThreadPool.new(2)
+      thread_pool.start
       thread_pool.schedule { sleep(1); string = "The 2nd job." }
       thread_pool.shutdown
       thread_pool.schedule { sleep(1); string = "The 2nd job." }
